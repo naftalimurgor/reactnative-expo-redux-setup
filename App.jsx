@@ -4,11 +4,12 @@ import { Provider } from 'react-redux';
 import { registerRootComponent } from 'expo';
 import Counter from './src/Counter';
 import { store } from './src/state/store';
+import Pokemon from './src/Pokemon';
 export default function App() {
   return (
     <Provider store={store}>
       <View style={styles.container}>
-        <Counter/>
+        <Pokemon />
       </View>
     </Provider>
   );
