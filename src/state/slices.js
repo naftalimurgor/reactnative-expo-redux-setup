@@ -22,7 +22,7 @@ const counterSlice = createSlice({
 
 })
 
-// action creators are generated for each case of the reducer function:
+// automatically generated action creators are generated for each case of the reducer function:
 export const { increment, decrement, incrementAmount } = counterSlice.actions
 // our reducer:
 export default counterSlice.reducer
